@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A90BCF8B1F884478A9E7FBFA /* Pods-LYImageFilter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYImageFilter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYImageFilter_Example/Pods-LYImageFilter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9DF39842C5C73F4461BFF3 /* Pods_LYImageFilter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYImageFilter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5AB9897EA489E2FB9A3C48C /* LYImageFilter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYImageFilter.podspec; path = ../LYImageFilter.podspec; sourceTree = "<group>"; };
-		C020F845A00A7ED8D2A46718 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DB9A03DA441D2A6F97C6187B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5AB9897EA489E2FB9A3C48C /* LYImageFilter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYImageFilter.podspec; path = ../LYImageFilter.podspec; sourceTree = "<group>"; };
+		C020F845A00A7ED8D2A46718 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB9A03DA441D2A6F97C6187B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +251,7 @@
 				ORGANIZATIONNAME = LiangyongFShen;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -568,6 +569,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYImageFilter_Example.app/LYImageFilter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +590,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYImageFilter_Example.app/LYImageFilter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

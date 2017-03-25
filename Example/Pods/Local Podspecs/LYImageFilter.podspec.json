@@ -1,0 +1,22 @@
+{
+  "name": "LYImageFilter",
+  "version": "0.1.0",
+  "summary": "处理UIImage的滤镜工具",
+  "description": "要得到某种滤镜效果要自己手动调\nTYPE     : 可以从Filter头文件中找\n注意:\nVALUEKEY : 滤镜效果系数（可选）\nVALUE    : 滤镜效果系数对应的值（可选)",
+  "homepage": "https://github.com/LiangyongFShen/LYImageFilter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiangyongFShen": "517661395@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiangyongFShen/LYImageFilter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYImageFilter/Classes/**/*"
+}

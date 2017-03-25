@@ -1,0 +1,6 @@
+framework module Pods_LYImageFilter_Example {
+  umbrella header "Pods-LYImageFilter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
