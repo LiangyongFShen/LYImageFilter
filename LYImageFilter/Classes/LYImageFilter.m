@@ -15,7 +15,7 @@ static NSMutableArray * filterNameArr = nil;
 
 +(Filter *)shareFilter
 {
-    static Filter * filter = nil;
+    static LYImageFilter * filter = nil;
 
     @synchronized(self){
     
