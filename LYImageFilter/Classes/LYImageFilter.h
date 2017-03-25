@@ -12,9 +12,9 @@
 /**
  *  滤镜设置参数
  */
-#define TYPE        @"type"
-#define VALUEKEY    @"valueKey"
-#define VALUE       @"value"
+#define TYPE @"type"
+#define VALUEKEY @"valueKey"
+#define VALUE @"value"
 
 typedef NS_ENUM(NSInteger, CIImageFilterType) {
     CIAdditionCompositing = 0,
@@ -141,7 +141,7 @@ typedef NS_ENUM(NSInteger, CIImageFilterType) {
  *
  *  @return 滤镜器
  */
-+(Filter *)shareFilter;
++(LYImageFilter *)shareFilter;
 
 /**
  *  通过枚举返回滤镜器类型名称

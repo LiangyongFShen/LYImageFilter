@@ -2,7 +2,7 @@
 //  Filter.m
 //  
 //
-//  Created by lyon on 15/9/8.
+//  Created by 信勇哥得水牛 on 15/9/8.
 //
 //
 
@@ -13,7 +13,7 @@
 
 static NSMutableArray * filterNameArr = nil;
 
-+(Filter *)shareFilter
++(LYImageFilter *)shareFilter
 {
     static LYImageFilter * filter = nil;
 
@@ -21,7 +21,7 @@ static NSMutableArray * filterNameArr = nil;
     
         if (filter == nil) {
             
-            filter = [[Filter alloc] init];
+            filter = [[LYImageFilter alloc] init];
             
             filterNameArr = [[NSMutableArray alloc] initWithObjects:
                              // 1
@@ -185,7 +185,7 @@ static NSMutableArray * filterNameArr = nil;
     CIImage * ciImage = [[CIImage alloc] initWithImage:[UIImage imageNamed:imageName]];
     
     // 2.创建出Filter滤镜
-    CIFilter * filter = [CIFilter filterWithName:[[Filter shareFilter] filterNameWithType:ciImageFilterType]];
+    CIFilter * filter = [CIFilter filterWithName:[[LYImageFilter shareFilter] filterNameWithType:ciImageFilterType]];
     
     [filter setValue:ciImage forKey:kCIInputImageKey];
     
